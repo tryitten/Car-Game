@@ -2,7 +2,7 @@ body{
  animation:Round 10s linear 0s infinite;
  -moz-animation:Round 10s linear 0s infinite;
  -webkit-animation:Round 5s linear 0s infinite;
-  background: #000 url(https://cdn.wallpapersafari.com/67/27/YQR6nW.jpg) repeat-x 0 0;
+  background: rgb(3, 3, 3) url(https://cdn.wallpapersafari.com/67/27/YQR6nW.jpg) repeat-x 0 0;
 height:100%;
 
 }
@@ -45,9 +45,18 @@ width: 70px;
 margin-top: -68px;
 margin-left: 229px;
 float: left
-
-
 } 
+.watermark{
+  color: rgba(174, 253, 27, 0.781);
+  
+  font-size:35px;
+      position:absolute;
+    right:6px;
+    bottom:0;
+    top:70%;
+    opacity:0.9;
+    
+}
 @keyframes Gowheel{
   0%{ transform:rotate(0deg)}
   100%{transform:rotate(-360deg)}
