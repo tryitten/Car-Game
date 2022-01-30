@@ -1,0 +1,88 @@
+body{
+ animation:Round 10s linear 0s infinite;
+ -moz-animation:Round 10s linear 0s infinite;
+ -webkit-animation:Round 5s linear 0s infinite;
+  background: #000 url(https://cdn.wallpapersafari.com/67/27/YQR6nW.jpg) repeat-x 0 0;
+height:100%;
+
+}
+#main{
+margin: 270px;
+width: 1000px;
+overflow: hidden;
+}
+#body{
+background:url(https://www.autotrader.com/content/dam/autotrader/homepage/styles/new_default_desk_style_sedan@2x.png) no-repeat; 
+height: 230px;
+width: 460px;
+margin-top: 65px;
+margin-left: 170px;
+}
+#font{
+  animation:Gowheel 5s linear 0s infinite;
+-moz-animation:Gowheel 5s linear 0s infinite;
+-webkit-animation: Gowheel 2.5s linear 0s infinite;
+
+background-repeat:no-repeat;
+height: 70px;
+width: 70px;
+margin-top: -70px;
+margin-left:479px;
+float: left;
+
+}
+
+
+
+#back{
+animation:Gowheel 5s linear 0s infinite;
+-moz-animation:Gowheel 5s linear 0s infinite;
+-webkit-animation: Gowheel 2.5s linear 0s infinite;
+
+background-repeat: no-repeat;
+height: 70px;
+width: 70px;
+margin-top: -68px;
+margin-left: 229px;
+float: left
+
+
+} 
+@keyframes Gowheel{
+  0%{ transform:rotate(0deg)}
+  100%{transform:rotate(-360deg)}
+  
+}
+@-moz-keyframes Gowheel{
+  0%{ transform:rotate(0deg)}
+  100%{transform:rotate(-360deg)}
+} 
+
+@-webkit-keyframes Gowheel{
+  0%{ transform:rotate(0deg)}
+  100%{transform:rotate(-360deg)}
+}
+@keyframes Round{
+  0%{
+background-position: 0px 0px ;
+  }
+  100%{
+background-position: 1000px 0px;
+  }
+}
+@-moz-keyframes Round{
+  0%{
+background-position: 0px 0px ;
+  }
+  100%{
+background-position: 1000px 0px;
+  }
+}
+@-webkit-keyframes Round{
+  0%{
+background-position: 0px 0px ;
+  }
+  100%{
+background-position: 1000px 0px;
+  }
+}
